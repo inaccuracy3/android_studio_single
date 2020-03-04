@@ -11,3 +11,11 @@ class MyApp :Application(){
         }
     }
 }
+
+//in other file
+//call instance
+val myApp = MyApp.getInstance()
+//setter
+myApp.QRResult = string
+//getter
+val QRResult = myApp.QRResult
